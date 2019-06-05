@@ -7,7 +7,7 @@
     "test": "jest-webpack",
     "start": "nodemon server/index.js",
     "react-dev": "webpack -d --watch",
-    "seed": "node seed.js"
+    "seed": "npx knex migrate:rollback; knex migrate:latest; knex seed:run"
   },
   "repository": {
     "type": "git",
