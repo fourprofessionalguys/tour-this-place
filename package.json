@@ -45,7 +45,7 @@
     "faker": "^4.1.0",
     "jest-dom": "^3.2.2",
     "jest-webpack": "^0.5.1",
-    "node-sass": "^4.12.0",
+    "node-sass": "^4.13.1",
     "react-testing-library": "^7.0.0",
     "sass-loader": "^7.1.0",
     "style-loader": "^0.23.1"
